@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>One Page</title>
+</head>
+<body>
+
+    <!--  Second main -->
+    <header class="sticky">
+        <div class="header-img">
+            <img src="./img/rocket.png" class="logo">
+        </div>
+
+        <div class="toggle"  onclick="toggleMenu();"></div>
+            <ul class="three-line">
+                <li><a href="#Home" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#About"onclick="toggleMenu();">About</a></li>
+                <li><a href="#Work"onclick="toggleMenu();">Work</a></li>
+                <li><a href="#video-section"onclick="toggleMenu();">Process</a></li>
+                <li><a href="#Services"onclick="toggleMenu();">Services</a></li>
+                <li><a href="#Testimonials"onclick="toggleMenu();">Testimonials</a></li>
+                <li><a href="#ContactSend"onclick="toggleMenu();">Contact</a></li>
+            </ul>
+    </header>
+    <section class="main" id="Home">
+        <div class="main-txt">
+            <h2>We design and Develop</h2>
+            <p>We are new design studio based in USA. We have over
+                20 years of combined expirence, and know a thing or two
+                about designing websites and mobile apps.</p>
+            <a href="#" class="contact">Contact Us</a>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+   <!--About us-->
+
+    <section class="about" id="About">
+        <div class="us">
+            <h1>About Us</h1>
+            <p>Divide have don't man wherein air fourth. Own itself make
+                have night won't make. A you under Seed appear which good
+                give. Own air without fowl moveth dry first heaven fruit. 
+                dominion she'd wont't very all.
+            </p>
+            <img src="img/1180 (1).png">
+        </div>
+
+        
+    </section>
+
+    <section id="Bars">
+        <div class="bars">
+            <div class="bar-title">Professional Skills</div>
+            <div class="contain-bars">
+                
+                <div class="bar-name">UI/UX Design   75%</div>
+                <div class="bar">
+                    <div class="bar-per" per="75"></div>
+                </div>
+            </div>
+            <div class="contain-bars">
+                <div class="bar-name">Web Development   90%</div>
+                <div class="bar">
+                    <div class="bar-per2" per="90"></div>
+                </div>
+            </div>
+            <div class="contain-bars">
+                <div class="bar-name">Marketing   65%</div>
+                <div class="bar">
+                    <div class="bar-per3" per="65"></div>
+                </div>
+            </div>
+            
+        </div>
+  
+        <div class="bars-img">
+            <img src="./img/macbook-23-scaled.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="numbers">
+        <div class="contain-numbers">
+
+            <div class="nums">
+                <div class="nums-img">
+                    <img src="./icons/star-white.svg" alt="">
+                </div>
+                <div class="nums-txt">
+                    <h3>894</h3>
+                    <p>Important</p>
+                </div>
+            </div>
+
+            <div class="nums">
+                <div class="nums-img">
+                    <img src="./icons/heart.svg" alt="">
+                </div>
+                <div class="nums-txt">
+                    <h3>958</h3>
+                    <p>Our Takes</p>
+                </div>
+            </div>
+
+            <div class="nums">
+                <div class="nums-img">
+                    <img src="./icons/suitcase.svg" alt="">
+                </div>
+                <div class="nums-txt">
+                    <h3>500</h3>
+                    <p>Expirence</p>
+                </div>
+            </div>
+
+            <div class="nums">
+                <div class="nums-img">
+                    <img src="./icons/clock.svg" alt="">
+                </div>
+                <div class="nums-txt">
+                    <h3>500</h3>
+                    <p>Our Times</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+ <!--About us-->
+   <!--gallery-->
+    <section id="Work">
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see hidden">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see hidden">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see hidden">
+            <div class="hover-see"></div>
+        </div>
+        <div class="you-see hidden">
+            <div class="hover-see"></div>
+        </div>
+
+        <h3 class="LoadMoreWork" id="LoadMoreWork">
+            load more work
+        </h3>
+    </section>
+
+<!--
+    Video
+-->
+    <section id="video-section">
+
+        <div class="vid-container">
+            <h1>This is our Work</h1>
+            <p>
+                We value random videos on the
+                internet. So we choosed them and we used them
+                in ours site.
+            </p>
+        </div>
+        <div id="video-player" onclick="playVideo()">
+            <video id="myVideo">
+                <source src="./gallery/video1.mp4" type="video/mp4">
+            </video>
+            <div id="play">
+                <img src="./img/play.png" alt="play button" id="play-video">
+            </div>
+        </div>
+
+    </section>
+
+   <!-- Slider iconstop iconsbottom -->
+
+   <section class="skills" id="Services">
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm 
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnmde 
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm 
+            </p>
+        </div>
+    </div>
+</section>
+<section class="skills">
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm 
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm 
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boxS">
+            <img src="./img/rocket.png">
+            <h2>Web Design</h2>
+            <p>One two three jeden dwa  trzy cztery 
+                qwertyuiopasdfghjklzxcvbnm 
+            </p>
+        </div>
+    </div>
+</section>
+
+   <section class="slider" id="Testimonials">
+        <p>
+            This is a website project and it is not finished. 
+                    This is a website project and it is not finished. 
+                    This is a website project and it is not finished. 
+                    This is a website project and it is not finished. 
+                    This is a website project and it is not finished.
+        </p>
+        <p>Student</p>
+        <ul>
+            <li>
+            
+            </li>
+            <li>
+            
+            </li>
+            <li>
+            
+            </li>
+        </ul>
+        
+    </section>
+    <section class="icons-bottom" >
+        <ul class="contain-icons flex-icons">
+            <li class="icon-bottom flex-icon">
+                <img src="./img/bottomA.png">
+            </li>
+            <li class="icon-bottom flex-icon">
+                <img src="./img/bottomH.png">
+            </li>
+            <li class="icon-bottom flex-icon">
+                <img src="./img/bottomZ.png">
+            </li>
+            <li class="icon-bottom flex-icon">
+                <img src="./img/bottomM.png">
+            </li>
+            <li class="icon-bottom flex-icon">
+                <img src="./img/bottomH.png">
+            </li>
+        </ul>
+    </section>
+
+
+   <!-- Slider -->
+
+   <!-- Need A Project-->
+
+
+   <section class="need" id="ContactSend">
+        <div class="need-us">
+            <h2>Need a Project?</h2>
+            <p>Let us know what you're looking for in an agency.
+                We will take look and see if this could be the start
+                of something beatiful.
+            </p>
+        </div>
+
+        <div class="wrapper">
+
+            <form id="Send" class="need-box">
+                <div class="need-contain">
+                    <input type="text" class="name need-input" maxlength="256" name="Your Name" placeholder="Name" required="">
+                    <input type="text" class="email need-input" maxlength="256" name="Your Email" placeholder="Email" required="">
+                </div>
+
+                <input type="text" class="title need-input" maxlength="256" name="title" placeholder="Title" required="">
+                <textarea name="comment" class="comment need-input" placeholder="Your Comment" maxlength="5000" required=""></textarea>
+                <!--<a href="#" class="send">Contact Us</a>-->
+            </form>
+
+        </div>  
+
+        <div class="need-button">
+            <a href="#">SEND MESSAGE</a>
+        </div>
+    </section>
+
+
+
+   <!-- Need A Project --> 
+
+   <!-- Footer -->
+    <section class="footer">
+        <div class="footer-left">
+            <h2>ABCDEFGHIJK</h2>
+            <p>&copy; All right reserved. Desinged by </p>
+        </div>
+
+        <ul class="footer-right">
+
+            <ul class="footer-center">
+                <li>
+                    <ul class="box">
+                        <li><a href="#">strona@strona.com</a></li>
+                        <li><a href="#">+098 123456789</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+            <li>
+                <ul class="box">
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Carreer</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul class="box">
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Events</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Legals</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <ul class="box">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                    <li><a href="#">GitHub</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+   <!-- Footer -->
+
+   <!--Kod tymczasowy-->
+    
+
+
+
+
+   <!--Kod tymczasowy-->
+
+    <script src="./script.js"></script>
+</body>
+</html>
