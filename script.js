@@ -48,3 +48,31 @@
             Button.style.display = 'block'
         }
         }
+        // bars
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 700) {
+                $(".b1").addClass("a1");
+            } else {
+                $(".b1").removeClass("a1");
+            }
+        });
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 700) {
+                $(".b2").addClass("a2");
+            } else {
+                $(".b2").removeClass("a2");
+            }
+        });
+        $(window).scroll(function() {    
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 700) {
+                $(".b3").addClass("a3");
+            } else {
+                $(".b3").removeClass("a3");
+            }
+        });

@@ -850,7 +850,52 @@ h2{
     }
 }
 
-
+.spanBar{
+    background: #cecece;
+    display: block;
+    height: 6px;
+}
+.spanBar span{
+    height: 6px;
+    float: left;
+    background: #10c9c9;
+}
+.a1{
+    width: 75%;
+    animation: A 8s;
+}
+.a2{
+    width: 90%;
+    animation: B 10s;
+}
+.a3{
+    width: 65%;
+    animation: C 6s;
+}
+@keyframes A{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes B{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes C{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
 
 /* Kod z zajęć */
 
